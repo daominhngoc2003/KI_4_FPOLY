@@ -1,0 +1,622 @@
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* CONTAINER */
+
+#container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+.header-logo{
+    text-align: center;
+}
+
+header .title{
+    background: rgb(243, 189, 197);
+    border-radius: 10px;
+    padding: 15px 0;
+}
+
+header .title h1{
+    padding: 10px 20px;
+    color: rgb(159, 84, 97);
+}
+
+/* NAV */
+nav ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+nav{
+    background: black;
+    border-radius: 10px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    padding: 20px 0;
+}
+
+nav ul li a{
+    color: grey;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: rgb(203, 202, 202);
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+/* CONTENT */
+/* INDEX */
+.index {
+    text-align: center;
+}
+.index h3{
+    font-size: 40px;
+}
+
+/* DANH MỤC */
+.danhmuc{
+    line-height: 40px;
+}
+
+.danhmuc .title{
+    background: green;
+    width: 1200px;
+    border-radius: 10px;
+    color: rgb(185, 182, 182);
+}
+
+.danhmuc .title h1{
+    padding: 10px 10px;
+}
+
+.danhmuc form .row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.danhmuc form .ip label{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.danhmuc form .ip input{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 8px;
+    border: 2px solid rgb(188, 187, 187);
+    font-size: 20px;
+}
+
+.danhmuc form .btn {
+    margin-top: 10px;
+}
+
+.danhmuc form .btn input{
+    color: black;
+    border: 2px solid rgb(188, 187, 187);
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+
+/* SẢN PHẨM */
+.sanpham{
+    line-height: 40px;
+    width: 1180px;
+}
+
+.sanpham .title{
+    background: green;
+    width: 1200px;
+    border-radius: 10px;
+    color: rgb(185, 182, 182);
+}
+
+.sanpham .title h1{
+    padding: 10px 10px;
+}
+
+.sanpham form label{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.sanpham form input{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 8px;
+    border: 2px solid rgb(188, 187, 187);
+    font-size: 20px;
+}
+
+.sanpham form .btn {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    width: 300px;
+}
+
+.sanpham form label{
+    text-transform: uppercase;
+}
+
+
+.sanpham form .btn input{
+    color: black;
+    border: 2px solid rgb(188, 187, 187);
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 0 10px;
+}
+
+.sanpham form .btn input:hover{
+    color: white;
+    background: green;
+}
+
+
+.sanpham .select{
+    border: 2px solid rgb(188, 187, 187);
+    width: 100%;
+    padding: 12px 10px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.sanpham .select option{
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+.sanpham .radio .con-radio{
+    border: 2px solid rgb(188, 187, 187);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 10px;
+    height: 43px;
+    border-radius: 8px;
+}
+.sanpham .radio .con-radio p{
+    margin-left: 7px;
+}
+
+.sanpham .mota{
+    grid-column: span 3 / span 3;
+}
+
+.sanpham .mota textarea{
+    border: 2px solid rgb(188, 187, 187);
+    border-radius: 8px;
+}
+
+
+.active{
+    color: white;
+}
+
+/* KHÁCH HÀNG */
+
+.khachhang{
+    line-height: 40px;
+    width: 1180px;
+}
+
+.khachhang form label{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.khachhang form input{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 8px;
+    border: 2px solid rgb(188, 187, 187);
+    font-size: 20px;
+}
+
+.khachhang form .btn {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.khachhang form label{
+    text-transform: uppercase;
+}
+
+
+.khachhang form .btn a{
+    color: black;
+    border: 2px solid rgb(188, 187, 187);
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+.khachhang .row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+}
+.khachhang .select{
+    border: 2px solid rgb(188, 187, 187);
+    width: 100%;
+    padding: 12px 10px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.khachhang .select option{
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+.khachhang .radio .con-radio{
+    border: 2px solid rgb(188, 187, 187);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 10px;
+    height: 43px;
+    border-radius: 8px;
+}
+.khachhang .radio .con-radio p{
+    margin-left: 7px;
+}
+.khachhang .radio1 .con-radio{
+    border: 2px solid rgb(188, 187, 187);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 10px;
+    height: 43px;
+    border-radius: 8px;
+}
+.khachhang .radio1 .con-radio p{
+    margin-left: 7px;
+}
+
+/* BÌNH LUẬN */
+
+.binhluan table{
+    width: 1200px;
+}
+
+
+/* title */
+.binhluan table .a{
+    width: 400px;
+}
+.binhluan table .b{
+    width: 150px;
+}
+.binhluan table .c{
+    width: 200px;
+
+}
+.binhluan table .d{
+    width: 200px;
+}
+.binhluan table .e{
+    width: 150px;
+}
+
+/* content-table */
+.binhluan table .a1{
+    width: 400px;
+}
+.binhluan table .b1{
+    width: 150px;
+}
+.binhluan table .c1{
+    width: 200px;
+
+}
+.binhluan table .d1{
+    width: 200px;
+}
+.binhluan table .e1{
+    width: 150px;
+    
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.binhluan table .e1 a{
+    border: 2px solid rgb(188, 187, 187);
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+
+.binhluan table .title{
+    background: lightgreen;
+}
+
+.binhluan table .title td{
+    font-weight: 600;
+}
+
+.binhluan .border-b{
+    display: block;
+    border-bottom: 2px solid rgb(188, 187, 187);
+    padding:30px 10px;
+}
+
+
+/* THỐNG KÊ */
+/* CONTENT */
+
+.thongke table{
+    width: 1200px;
+}
+
+/* title */
+.thongke table .a{
+    width: 350px;
+}
+.thongke table .b{
+    width: 180px;
+}
+.thongke table .c{
+    width: 180px;
+
+}
+.thongke table .d{
+    width: 180px;
+}
+.thongke table .e{
+    width: 180px;
+}
+
+.thongke .title td{
+    font-size: 20px;
+    font-weight: 600;
+}
+.thongke .title{
+    background: lightgreen;
+}
+
+/* content-table */
+.thongke table .a1{
+    width: 350px;
+}
+.thongke table .b1{
+    width: 180px;
+}
+.thongke table .c1{
+    width: 180px;
+
+}
+.thongke table .d1{
+    width: 180px;
+}
+.thongke table .e1{
+    width: 180px;
+}
+
+
+
+.thongke .border-b{
+    display: block;
+    border-bottom: 2px solid rgb(188, 187, 187);
+    padding:30px 10px;
+}
+
+
+
+.thongke form .btn a{
+    color: black;
+    border: 2px solid rgb(188, 187, 187);
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+.thongke .btn{
+    display: block;
+    padding:30px 10px;
+}
+
+
+/* LIST DANH MỤC */
+.list-danhmuc{
+    line-height: 40px;
+}
+
+.list-danhmuc form .row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.list-danhmuc form label{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.list-danhmuc form input{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 8px;
+    border: 2px solid rgb(188, 187, 187);
+    font-size: 20px;
+}
+
+.list-danhmuc form .btn {
+    margin-top: 10px;
+}
+
+/* CONTENT */
+
+.list-danhmuc table{
+    width: 1200px;
+}
+
+/* title */
+.list-danhmuc table .a{
+    width: 100px;
+}
+.list-danhmuc table .b{
+    width: 200px;
+}
+.list-danhmuc table .c{
+    width: 400px;
+
+}
+.list-danhmuc table .d{
+    width: 200px;
+}
+
+.list-danhmuc .title td{
+    font-size: 20px;
+    font-weight: 600;
+}
+.list-danhmuc .title{
+    background: lightgreen;
+}
+
+/* content-table */
+.list-danhmuc table .a1{
+    width: 100px;
+}
+.list-danhmuc table .b1{
+    width: 200px;
+}
+.list-danhmuc table .c1{
+    width: 400px;
+
+}
+.list-danhmuc table .d1{
+    width: 400px;
+}
+
+
+.list-danhmuc table .d1 input{
+    border: 2px solid rgb(188, 187, 187);
+    padding: 10px 5px;
+    border-radius: 8px;
+    width: 150px;
+}
+
+.list-danhmuc .border-b{
+    display: block;
+    border-bottom: 2px solid rgb(188, 187, 187);
+    padding:30px 10px;
+}
+
+
+
+.list-danhmuc form .btn input{
+    color: black;
+    border: 2px solid rgb(188, 187, 187);
+    border-radius: 8px;
+    padding: 10px 10px;
+    margin: 0 10px;
+}
+.list-danhmuc .btn{
+    display: block;
+    padding:30px 10px;
+    display: flex;
+    width: 300px;
+}
+
+
+/* LIST SẢN PHẨM */
+
+section table{
+    width: 1200px;
+}
+
+/* title */
+.list-sanpham table .a{
+    width: 40px;
+}
+.list-sanpham table .b{
+    width: 100px;
+}
+.list-sanpham table .c{
+    width: 200px;
+
+}
+.list-sanpham table .d{
+    width: 200px;
+}
+.list-sanpham table .e{
+    width: 240px;
+}
+.list-sanpham table .f{
+    width: 100px;
+}
+.list-sanpham table .g{
+    width: 100px;
+}
+.list-sanpham .title td{
+    font-size: 20px;
+    font-weight: 600;
+}
+.list-sanpham .title{
+    background: lightgreen;
+}
+
+/* content-table */
+.list-sanpham table .a1{
+    width: 40px;
+}
+.list-sanpham table .b1{
+    width: 100px;
+}
+.list-sanpham table .c1{
+    width: 200px;
+
+}
+.list-sanpham table .d1{
+    width: 120px;
+}
+.list-sanpham table .e1{
+    width: 250px;
+}
+.list-sanpham table .f1{
+    width: 100px;
+}
+
+.list-sanpham table .g1 a{
+    border: 2px solid rgb(188, 187, 187);
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+
+.list-sanpham .border-b{
+    display: block;
+    border-bottom: 2px solid rgb(188, 187, 187);
+    padding:30px 10px;
+}
+
+
+
+.list-sanpham form .btn a input{
+    color: black;
+    border: 2px solid rgb(188, 187, 187);
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+.list-sanpham .btn{
+    display: block;
+    padding:30px 10px;
+}

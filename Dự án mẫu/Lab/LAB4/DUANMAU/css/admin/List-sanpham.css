@@ -1,0 +1,145 @@
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* CONTAINER */
+
+#container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+.header-logo{
+    text-align: center;
+}
+
+header .title{
+    background: rgb(243, 189, 197);
+    border-radius: 10px;
+    padding: 15px 0;
+}
+
+header .title h1{
+    padding: 10px 20px;
+    color: rgb(159, 84, 97);
+}
+
+/* NAV */
+nav ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+nav{
+    background: black;
+    border-radius: 10px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    padding: 20px 0;
+}
+
+nav ul li a{
+    color: grey;
+    padding: 0 10px;
+    font-size: 20px;
+}
+.active{
+    color: white;
+}
+
+
+/* CONTENT */
+
+section table{
+    width: 1200px;
+}
+
+/* title */
+section table .a{
+    width: 40px;
+}
+section table .b{
+    width: 120px;
+}
+section table .c{
+    width: 400px;
+
+}
+section table .d{
+    width: 130px;
+}
+section table .e{
+    width: 130px;
+}
+section table .f{
+    width: 130px;
+}
+section table .g{
+    width: 100px;
+}
+.title td{
+    font-size: 20px;
+    font-weight: 600;
+}
+.title{
+    background: lightgreen;
+}
+
+/* content-table */
+section table .a1{
+    width: 40px;
+}
+section table .b1{
+    width: 120px;
+}
+section table .c1{
+    width: 400px;
+
+}
+section table .d1{
+    width: 130px;
+}
+section table .e1{
+    width: 130px;
+}
+section table .f1{
+    width: 130px;
+}
+
+section table .g1 a{
+    border: 2px solid rgb(188, 187, 187);
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+
+.border-b{
+    display: block;
+    border-bottom: 2px solid rgb(188, 187, 187);
+    padding:30px 10px;
+}
+
+
+
+section form .btn a{
+    color: black;
+    border: 2px solid rgb(188, 187, 187);
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+.btn{
+    display: block;
+    padding:30px 10px;
+}

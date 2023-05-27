@@ -1,0 +1,12 @@
+
+Control panel username:	b4_32776032
+Control panel password:	**********
+Control panel URL:	cpanel.byethost4.com
+MySQL username	b4_32776032
+MySQL password:	**********
+MySQL hostname:	sql310.byethost4.com
+FTP username:	b4_32776032
+FTP password:	**********
+FTP host name:	ftp.byethost4.com
+Your Website URL:	http://ngocdm.byethost4.com
+ 	 

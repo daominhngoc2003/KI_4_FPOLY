@@ -1,0 +1,3 @@
+git config --global user.name "DAOMINHNGOC"
+git config --global user.email "ngocdmph20534@fpt.edu.vn"
+git config --list

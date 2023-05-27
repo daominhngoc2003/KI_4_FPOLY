@@ -1,0 +1,3 @@
+ Cách đẩy code lên git : git add . -> git commit -m "comment" -> git push origin main
+ Cách tải code trên git: git status(Kiểm tra trạng thái) -> git clone + link của code muốn tải
+Cách lấy code đã được update trên git : git status(kiểm tra trạng thái) -> git pull(lấy code đã được update

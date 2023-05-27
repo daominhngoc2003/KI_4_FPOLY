@@ -1,0 +1,109 @@
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* CONTAINER */
+
+#container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+.header-logo{
+    text-align: center;
+}
+
+header .title{
+    background: rgb(243, 189, 197);
+    border-radius: 10px;
+    padding: 15px 0;
+}
+
+header .title h1{
+    padding: 10px 20px;
+    color: rgb(159, 84, 97);
+}
+
+/* NAV */
+nav ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+nav{
+    background: black;
+    border-radius: 10px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    padding: 20px 0;
+}
+
+nav ul li a{
+    color: grey;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+/* CONTENT */
+section{
+    line-height: 40px;
+}
+
+section form .row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+section form label{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+section form input{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 8px;
+    border: 2px solid rgb(188, 187, 187);
+    font-size: 20px;
+}
+
+section form .btn {
+    margin-top: 10px;
+}
+
+
+
+
+section form .btn a{
+    color: black;
+    border: 2px solid rgb(188, 187, 187);
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+footer{
+    background: #000;
+    color: white;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.active{
+    color: white;
+}
